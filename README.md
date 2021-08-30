@@ -10,13 +10,13 @@ by 김성훈 교수님
 
 
 
-목표: Machine Learning, Deep Learning 및 tensorflow에 대한 전반적인 이해
+- 목표: Machine Learning, Deep Learning 및 tensorflow에 대한 전반적인 이해
 
 ML 관련 프로젝트 진행 시 기반이 될 지식 학습
 
 
 
-학습 계기: AI 관련 특화 프로젝트
+- 학습 계기: AI 관련 특화 프로젝트
 
 모 학우의 github를 보고 따라하고 싶은 마음이 생겼다.
 
@@ -32,7 +32,9 @@ ML 관련 프로젝트 진행 시 기반이 될 지식 학습
 
 
 
-이세돌, 알파고 바둑 대결
+
+
+#### 이세돌, 알파고 바둑 대결
 
 바둑 -> 경우의 수가 너무 많아 명석하고 예지력, 직관력 있는 사람만이 잘 한다고 믿음.
 
@@ -42,13 +44,19 @@ ML 관련 프로젝트 진행 시 기반이 될 지식 학습
 
 
 
-Dr.Andrew Ng(2015년): ML(머신 러닝)을 잘 이해하고 사용하는 것이 super power를 갖는 것
+
+
+#### Dr.Andrew Ng(2015년): 
+
+ML(머신 러닝)을 잘 이해하고 사용하는 것이 super power를 갖는 것
 
 많은 사람들이 super power를 갖게 하는 것이 목표!
 
 
 
-강의 타겟
+
+
+#### 강의 타겟
 
 - 머신 러닝이 궁금한 사람
 
@@ -64,7 +72,9 @@ Dr.Andrew Ng(2015년): ML(머신 러닝)을 잘 이해하고 사용하는 것이
 
 
 
-비디오 목표
+
+
+#### 비디오 목표
 
 - ML에 대한 기본적인 이해
   - Linear regression, Logistic regression
@@ -77,14 +87,18 @@ Dr.Andrew Ng(2015년): ML(머신 러닝)을 잘 이해하고 사용하는 것이
 
 
 
-수업
+
+
+#### 수업
 
 - 10분 정도의 비디오(지하철, 이동 중이나 짬을 내어서도 충분히 보면서 내용 이해)
 - Tensorflow 프로그래밍 하는 것 보고 어떻게 돌아가는구나 감을 잡을 수 있다.
 
 
 
-참고자료
+
+
+#### 참고자료
 
 - Andrew Ng's ML class
 
@@ -94,7 +108,9 @@ Dr.Andrew Ng(2015년): ML(머신 러닝)을 잘 이해하고 사용하는 것이
 
 
 
-스케쥴
+
+
+#### 스케쥴
 
 - Machine learning basic concepts
 - Linear regression
@@ -105,6 +121,8 @@ Dr.Andrew Ng(2015년): ML(머신 러닝)을 잘 이해하고 사용하는 것이
   - CNN
   - RNN
   - Bidirectional Neural networks
+
+
 
 
 
