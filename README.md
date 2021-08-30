@@ -18,11 +18,51 @@ ML 관련 프로젝트 진행 시 기반이 될 지식 학습
 
 
 
+
+
 - ### 학습 계기
 
 AI 관련 특화 프로젝트
 
 모 학우의 github를 보고 따라하고 싶은 마음이 생겼다.
+
+
+
+
+
+- ### 사전에 알아두면 좋을 내용
+
+강의: 2016년 3월 경 시작
+
+현재 2021년 8월
+
+당시 대세: tensorflow
+
+요즘 대세: tensorflow, pytorch
+
+
+
+당시 tensorflow: 1.x 버전
+
+요즘 tensorflow: 2.x 버전
+
+
+
+#### 1.x 버전과 2.x 버전의 차이가 있다.
+
+ex) 
+
+1.x버전: sess = tf.Session(), tf.placeholder(tf.float32)같은 명령어 사용
+
+2.x버전: Session, placeholder 사용 불가
+
+
+
+바뀐 점이 많다.
+
+모든 코드를 이해하고 넘어가기보단, 개념 위주로 수강하자!
+
+
 
 
 
