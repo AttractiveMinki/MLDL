@@ -75,7 +75,9 @@ Tensor(data)가 돌아다닌다 -> Tensorflow
 
 pip - package installer for Python
 
-![3-1](3 - ML lab 01 - TensorFlow의 설치및 기본적인 operations (new).assets/3-1.PNG)
+![3-1](3-1.PNG)
+
+
 
 - From source
   - bazel
