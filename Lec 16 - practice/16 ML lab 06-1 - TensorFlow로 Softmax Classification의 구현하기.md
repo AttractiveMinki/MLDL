@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=VRnubDzIy3A&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_M
 
 ### Softmax function
 
-![16-1](16 ML lab 06-1 - TensorFlow로 Softmax Classification의 구현하기.assets/16-1.PNG)
+![16-1](16-1.PNG)
 
 softmax function
 
@@ -48,7 +48,7 @@ A가 될 확률이 0.7, B가 0.2, C가 0.1 이런 식으로 확률로 표현이 
 
 매우 간단
 
-![16-2](16 ML lab 06-1 - TensorFlow로 Softmax Classification의 구현하기.assets/16-2.PNG)
+![16-2](16-2.PNG)
 
 기본적으로 tensorflow로 수식을 그대로 써주면 된다.
 
@@ -86,7 +86,7 @@ tf.nn.softmax라고 써주면 된다.
 
 ### Cost function: cross entropy
 
-![16-3](16 ML lab 06-1 - TensorFlow로 Softmax Classification의 구현하기.assets/16-3.PNG)
+![16-3](16-3.PNG)
 
 softmax function이란 아름다운 function 봤다.
 
@@ -298,7 +298,7 @@ x data, y data를 던져준다.
 
 그럼 이제 출력을 해볼까요? 간단하게 하나씩 보자..
 
-![16-4](16 ML lab 06-1 - TensorFlow로 Softmax Classification의 구현하기.assets/16-4.PNG)
+![16-4](16-4.PNG)
 
 hypothesis를 이렇게 주었다..
 
@@ -354,7 +354,7 @@ tensorflow에 있는 arg_max
 
 
 
-![16-5](16 ML lab 06-1 - TensorFlow로 Softmax Classification의 구현하기.assets/16-5.PNG)
+![16-5](16-5.PNG)
 
 질문할 때 하나씩 질문하면 조금 심심하니까, 여러 개를 질문할 수도 있죠?
 

@@ -30,7 +30,7 @@ Linear regression 하기 위해 필요한 세 가지
    1. cost, loss = ()^2
 3. Cost를 최적화하는 알고리즘
 
-![8-1](8 - ML lec 04 - multi-variable linear regression (new).assets/8-1.PNG)
+![8-1](8-1.PNG)
 
 
 
@@ -126,7 +126,7 @@ H(x1, x2, x3) = w1x1 + w2x2 + w3x3 + b
 
 예측한 값 - 실제 값
 
-![8-2](8 - ML lec 04 - multi-variable linear regression (new).assets/8-2.PNG)
+![8-2](8-2.PNG)
 
 
 
@@ -140,7 +140,7 @@ cost 똑같고, Hypothesis만 여러 개로 벌려준다.
 
 더 많은 경우도 마찬가지
 
-![8-3](8 - ML lec 04 - multi-variable linear regression (new).assets/8-3.PNG)
+![8-3](8-3.PNG)
 
 
 
@@ -164,7 +164,7 @@ w1x1 + w2x2 + w3x3 + ... + wnxn
 
 Matrix 곱셈만 사용할꺼다.
 
-![8-4](8 - ML lec 04 - multi-variable linear regression (new).assets/8-4.PNG)
+![8-4](8-4.PNG)
 
 기억나시쥬?
 
@@ -176,7 +176,7 @@ Matrix 곱셈만 사용할꺼다.
 
 ### Hypothesis using matrix
 
-![8-5](8 - ML lec 04 - multi-variable linear regression (new).assets/8-5.PNG)
+![8-5](8-5.PNG)
 
 
 
@@ -214,7 +214,7 @@ H(X) = XW
 
 간단하게 하기 위해 bias 생략
 
-![8-6](8 - ML lec 04 - multi-variable linear regression (new).assets/8-6.PNG)
+![8-6](8-6.PNG)
 
 
 
@@ -232,7 +232,7 @@ H(X) = XW
 
 Matrix의 굉장히 놀라운 성질
 
-![8-7](8 - ML lec 04 - multi-variable linear regression (new).assets/8-7.PNG)
+![8-7](8-7.PNG)
 
 
 
@@ -252,7 +252,7 @@ Instance 많을 때 각각의 instance 계산할 필요 없이 긴 Matrix에 넣
 
 
 
-![8-8](8 - ML lec 04 - multi-variable linear regression (new).assets/8-8.PNG)
+![8-8](8-8.PNG)
 
 
 
@@ -278,7 +278,7 @@ Weight 어떻게 Matrix를 해?
 
 
 
-![8-9](8 - ML lec 04 - multi-variable linear regression (new).assets/8-9.PNG)
+![8-9](8-9.PNG)
 
 
 
@@ -322,7 +322,7 @@ y variable의 개수가 얼마인가? 3
 
 
 
-![8-10](8 - ML lec 04 - multi-variable linear regression (new).assets/8-10.PNG)
+![8-10](8-10.PNG)
 
 
 
@@ -342,7 +342,7 @@ None개 -> n개, 여러 개, 원하는 만큼 들어올 수 있다고 보시면 
 
 출력 꼭 하나일 필요는 없쥬?
 
-![image-20210831225703704](8 - ML lec 04 - multi-variable linear regression (new).assets/image-20210831225703704.png)
+![image-20210831225703704](image-20210831225703704.png)
 
 다음 번에 나오는 여러 개 형태의 Machine Learning을 다룰 것..
 

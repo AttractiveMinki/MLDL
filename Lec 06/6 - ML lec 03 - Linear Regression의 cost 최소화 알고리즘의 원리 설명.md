@@ -14,7 +14,7 @@ cost function 어떻게 최소화해서 최종적으로 Linear Regression 학습
 
 H(x) = Wx + b
 
-![5-1](6 - ML lec 03 - Linear Regression의 cost 최소화 알고리즘의 원리 설명.assets/5-1.png)
+![5-1](5-1.png)
 
 Hypothesis, 우리의 모델이 Wx + b의 형태로 주어지고
 
@@ -50,7 +50,7 @@ W의 function.. 나머지는 위와 같다.
 
 ### What cost(W) looks like?
 
-![6-1](6 - ML lec 03 - Linear Regression의 cost 최소화 알고리즘의 원리 설명.assets/6-1.PNG)
+![6-1](6-1.PNG)
 
 
 
@@ -70,7 +70,7 @@ W = 1일 때 이 값은 0이 되는구나.
 
 W = 0
 
-![6-2](6 - ML lec 03 - Linear Regression의 cost 최소화 알고리즘의 원리 설명.assets/6-2.PNG)
+![6-2](6-2.PNG)
 
 14/3 = 4.67
 
@@ -94,9 +94,9 @@ W = 0일 때와 같은 값이 나올 것이다. cost(W) = 4.67
 
 - W = 2, cost(W) = 4.67
 
-![6-3](6 - ML lec 03 - Linear Regression의 cost 최소화 알고리즘의 원리 설명.assets/6-3.PNG)
+![6-3](6-3.PNG)
 
-![6-4](6 - ML lec 03 - Linear Regression의 cost 최소화 알고리즘의 원리 설명.assets/6-4.PNG)
+![6-4](6-4.PNG)
 
 
 
@@ -198,7 +198,7 @@ W를 조금만 움직임. -> cost를 줄이는 방향으로.
 
 ### Formal definition
 
-![6-5](6 - ML lec 03 - Linear Regression의 cost 최소화 알고리즘의 원리 설명.assets/6-5.PNG)
+![6-5](6-5.PNG)
 
 
 
@@ -208,7 +208,7 @@ W를 조금만 움직임. -> cost를 줄이는 방향으로.
 
 
 
-![6-6](6 - ML lec 03 - Linear Regression의 cost 최소화 알고리즘의 원리 설명.assets/6-6.PNG)
+![6-6](6-6.PNG)
 
 
 
@@ -224,7 +224,7 @@ W를 조금만 움직임. -> cost를 줄이는 방향으로.
 
 미분 절차
 
-![6-7](6 - ML lec 03 - Linear Regression의 cost 최소화 알고리즘의 원리 설명.assets/6-7.PNG)
+![6-7](6-7.PNG)
 
 
 
@@ -244,7 +244,7 @@ W를 조금만 움직임. -> cost를 줄이는 방향으로.
 
 ### Gradient descent algorithm
 
-![6-8](6 - ML lec 03 - Linear Regression의 cost 최소화 알고리즘의 원리 설명.assets/6-8.PNG)
+![6-8](6-8.PNG)
 
 
 
@@ -256,7 +256,7 @@ W를 조금만 움직임. -> cost를 줄이는 방향으로.
 
 ### Convex function
 
-![6-9](6 - ML lec 03 - Linear Regression의 cost 최소화 알고리즘의 원리 설명.assets/6-9.PNG)
+![6-9](6-9.PNG)
 
 생각해볼 만한 문제
 
@@ -268,7 +268,7 @@ W를 조금만 움직임. -> cost를 줄이는 방향으로.
 
 
 
-![6-10](6 - ML lec 03 - Linear Regression의 cost 최소화 알고리즘의 원리 설명.assets/6-10.PNG)
+![6-10](6-10.PNG)
 
 
 

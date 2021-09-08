@@ -40,7 +40,7 @@ Hypothesis 자연스럽게 세 개로.. -> 학습해야 할 예시가 세 개다
 
 https://github.com/hunkim/DeepLearningZeroToAll/blob/master/lab-04-1-multi_variable_linear_regression.py
 
-![9-1](9 - ML lab 04-1 - multi-variable linear regression을 TensorFlow에서 구현하기 (new).assets/9-1.PNG)
+![9-1](9-1.PNG)
 
 ```python
 # Lab 4 Multi-variable linear regression
@@ -149,7 +149,7 @@ x data 100개가 된다면.. -> decode같이 정말 복잡해질 것.
 
 위 방법을 대체한 것이 우리가 좋아하는 Matrix
 
-![9-2](9 - ML lab 04-1 - multi-variable linear regression을 TensorFlow에서 구현하기 (new).assets/9-2.PNG)
+![9-2](9-2.PNG)
 
 
 

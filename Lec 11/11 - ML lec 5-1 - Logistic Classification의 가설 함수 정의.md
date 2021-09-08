@@ -28,7 +28,7 @@ Andrew Ng 교수님 수업자료 많이 이용했다.
 
 
 
-![11-1](11 - ML lec 5-1 - Logistic Classification의 가설 함수 정의.assets/11-1.PNG)
+![11-1](11-1.PNG)
 
 
 
@@ -145,7 +145,7 @@ Linear Regression을 갖고도 할 수 있을 것 같은 느낌이 든다.
 
 작게 나옴 -> 탈락
 
-![11-2](11 - ML lec 5-1 - Logistic Classification의 가설 함수 정의.assets/11-2.PNG)
+![11-2](11-2.PNG)
 
 실제로 비슷한 모델을 쓸꺼다.
 
@@ -169,7 +169,7 @@ Linear Algorithm에서 50시간 공부 -> 이만큼 올라가있다.
 
 문제) 이전에 우리가 세워놓았던 0.5 이상, 이하의 값이 변한다.
 
-![11-3](11 - ML lec 5-1 - Logistic Classification의 가설 함수 정의.assets/11-3.PNG)
+![11-3](11-3.PNG)
 
 
 
@@ -219,7 +219,7 @@ g(z)는 Z값에 상관 없이 대략 0~1 사이의 값을 만들어주더라
 
 많은 함수를 찾다가 재밌게 생긴 함수를 찾음.
 
-![11-4](11 - ML lec 5-1 - Logistic Classification의 가설 함수 정의.assets/11-4.PNG)
+![11-4](11-4.PNG)
 
 
 
@@ -265,7 +265,7 @@ H(x) = g(z)라고 두면..
 
 ### Logistic Hypothesis
 
-![11-5](11 - ML lec 5-1 - Logistic Classification의 가설 함수 정의.assets/11-5.PNG)
+![11-5](11-5.PNG)
 
 
 

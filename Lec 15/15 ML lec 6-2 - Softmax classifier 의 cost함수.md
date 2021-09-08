@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=jMU9G5WEtBc&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_M
 
 ### ML lec 6-2: Softmax classifier 의 cost함수
 
-![15-1](15 ML lec 6-2 - Softmax classifier 의 cost함수.assets/15-1.PNG)
+![15-1](15-1.PNG)
 
 각각의 classifier를 갖는 것 -> 복잡
 
@@ -18,7 +18,7 @@ A에 해당하는 값, B에 해당하는 값, C에 해당하는 값이 나온다
 
 2.0, 1.0, 0.1
 
-![15-2](15 ML lec 6-2 - Softmax classifier 의 cost함수.assets/15-2.PNG)
+![15-2](15-2.PNG)
 
 2.0이 젤 크니까 a겠쥬
 
@@ -26,7 +26,7 @@ A에 해당하는 값, B에 해당하는 값, C에 해당하는 값이 나온다
 
 우리가 원하는 것) sigmoid같은걸 써서 2.0, 1.0, 0.1 값들이 0~1사이의 값이 나오면 좋겠다.
 
-![15-3](15 ML lec 6-2 - Softmax classifier 의 cost함수.assets/15-3.PNG)
+![15-3](15-3.PNG)
 
 다시 정리
 
@@ -50,7 +50,7 @@ A, B, C에 해당하는 값
 
 ### SOFTMAX
 
-![15-4](15 ML lec 6-2 - Softmax classifier 의 cost함수.assets/15-4.PNG)
+![15-4](15-4.PNG)
 
 나와있는 3개, 혹은 n개의 값을 softmax에 넣게 되면, 오른쪽 형태의 값으로 만들어준다.
 
@@ -61,7 +61,7 @@ A, B, C에 해당하는 값
 
 
 
-![15-5](15 ML lec 6-2 - Softmax classifier 의 cost함수.assets/15-5.PNG)
+![15-5](15-5.PNG)
 
 0.7, 0.2, 0.1을 확률로 볼 수 있다!
 
@@ -83,7 +83,7 @@ tensorflow -> argmax란 게 있다.
 
 ### Cost function
 
-![15-6](15 ML lec 6-2 - Softmax classifier 의 cost함수.assets/15-6.PNG)
+![15-6](15-6.PNG)
 
 Hypothesis, 예측하는 모델은 완성이 되었다.
 
@@ -123,7 +123,7 @@ S(y): 예측한 값, Y햇
 
 -로그는 지난 번에 logistic regression에서 본 적 있쥬?
 
-![15-7](15 ML lec 6-2 - Softmax classifier 의 cost함수.assets/15-7.PNG)
+![15-7](15-7.PNG)
 
 yi햇 -> softmax를 통과한 값이기 때문에 항상 0에서 1 사이의 값을 가진다.
 
@@ -135,7 +135,7 @@ y값이 1일 때는 0이 된다.
 
 간단하게 하기 위해 두 가지 label이 있다고 하자.
 
-![15-8](15 ML lec 6-2 - Softmax classifier 의 cost함수.assets/15-8.PNG)
+![15-8](15-8.PNG)
 
 A, B
 
@@ -177,7 +177,7 @@ cost function: 예측이 맞은 경우엔 작은 값이 되고, 예측이 틀린
 
 예측이 틀렸을 때 큰 값을 주는 것이 우리가 원했던 cost 함수
 
-![15-9](15 ML lec 6-2 - Softmax classifier 의 cost함수.assets/15-9.PNG)
+![15-9](15-9.PNG)
 
 
 
@@ -215,7 +215,7 @@ cost function을 cross-entropy로 나타내보았다.
 
 들어가기 전에 Logistic cost 복잡한 형태로 다루었던거 기억나나요?
 
-![15-10](15 ML lec 6-2 - Softmax classifier 의 cost함수.assets/15-10.PNG)
+![15-10](15-10.PNG)
 
 사실상 이것이 cross entropy였다.
 
@@ -239,7 +239,7 @@ H(x)가 예측값 S
 
 생각해보시고 유튜브 밑에 답이나 discussion해주시면 좋을 듯.
 
-![15-11](15 ML lec 6-2 - Softmax classifier 의 cost함수.assets/15-11.PNG)
+![15-11](15-11.PNG)
 
 유튜브 댓글 펌
 
@@ -257,7 +257,7 @@ J Seok님
 
 여러 개의 training set이 있을 경우
 
-![15-12](15 ML lec 6-2 - Softmax classifier 의 cost함수.assets/15-12.PNG)
+![15-12](15-12.PNG)
 
 전체의 거리를, distance를, 차이를 구한 다음에 그것을 합해서 개수로 나누어 평균을 내준다.
 
@@ -273,7 +273,7 @@ J Seok님
 
 cost function이 주어짐 -> cost를 최소화하는 값, W벡터를 찾아내는 것.
 
-![15-13](15 ML lec 6-2 - Softmax classifier 의 cost함수.assets/15-13.PNG)
+![15-13](15-13.PNG)
 
 이 알고리즘 - 이전과 마찬가지로 Gradient descent 알고리즘 사용
 

@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=E-io76NlsqA&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_M
 
 ### softmax_cross_entropy_with_logits
 
-![17-1](17 ML lab 06-2- TensorFlow로 Fancy Softmax Classification의 구현하기.assets/17-1.PNG)
+![17-1](17-1.PNG)
 
 
 
@@ -49,7 +49,7 @@ logits을 softmax로 통과시키면 우리가 최종적으로 원하는 hypothe
 
 
 
-![17-2](17 ML lab 06-2- TensorFlow로 Fancy Softmax Classification의 구현하기.assets/17-2.PNG)
+![17-2](17-2.PNG)
 
 
 
@@ -157,7 +157,7 @@ softmax_cross_entropy_with_logits 함수 사용하면 굉장히 깔끔하게 만
 
 이걸 가지고 우리가 정말 멋진 어플리케이션 생각할 수 있다.
 
-![17-3](17 ML lab 06-2- TensorFlow로 Fancy Softmax Classification의 구현하기.assets/17-3.PNG)
+![17-3](17-3.PNG)
 
 ```python
 # Predicting animal type based on various features
@@ -404,7 +404,7 @@ one_hot으로 나온 결과가 우리가 원하는 shape와 조금 다르기 때
 
 
 
-![17-4](17 ML lab 06-2- TensorFlow로 Fancy Softmax Classification의 구현하기.assets/17-4.PNG)
+![17-4](17-4.PNG)
 
 그 다음에 이제 학습을 한다.
 

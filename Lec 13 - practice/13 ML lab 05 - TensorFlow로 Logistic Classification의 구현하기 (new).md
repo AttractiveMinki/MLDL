@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=2FeWGgnyLSw&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_M
 
 ### Logistic Regression
 
-![13-1](13 ML lab 05 - TensorFlow로 Logistic Classification의 구현하기 (new).assets/13-1.PNG)
+![13-1](13-1.PNG)
 
 
 
@@ -50,7 +50,7 @@ W는 보통 모르니까 Random한 시점에 시작.
 
 ### Training Data
 
-![13-2](13 ML lab 05 - TensorFlow로 Logistic Classification의 구현하기 (new).assets/13-2.PNG)
+![13-2](13-2.PNG)
 
 x_data는 multi-variable data, array로 주어진 data
 
@@ -64,7 +64,7 @@ y값은 0이나 1값을 가진다.
 
 
 
-![13-3](13 ML lab 05 - TensorFlow로 Logistic Classification의 구현하기 (new).assets/13-3.PNG)
+![13-3](13-3.PNG)
 
 placeholder를 만들 때는 shape에 주의
 

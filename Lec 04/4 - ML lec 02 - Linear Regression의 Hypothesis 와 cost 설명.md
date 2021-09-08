@@ -101,7 +101,7 @@ y: 예측해야 할 대상
 
 간단하게 그래프에 그리면
 
-![4-1](4 - ML lec 02 - Linear Regression의 Hypothesis 와 cost 설명.assets/4-1.PNG)
+![4-1](4-1.PNG)
 
 
 
@@ -131,7 +131,7 @@ linear로 예를 세울 수 있는 경우 많다.
 
 선을 찾는 것이 학습을 하는 것.
 
-![4-2](4 - ML lec 02 - Linear Regression의 Hypothesis 와 cost 설명.assets/4-2.PNG)
+![4-2](4-2.PNG)
 
 H(x) = Wx + b
 
@@ -159,7 +159,7 @@ H(x) = Wx + b
 
 ### Which hypothesis is better?
 
-![4-3](4 - ML lec 02 - Linear Regression의 Hypothesis 와 cost 설명.assets/4-3.PNG)
+![4-3](4-3.PNG)
 
 
 
@@ -203,7 +203,7 @@ H(x) - y
 
 좀 더 formal하게 정리
 
-![4-4](4 - ML lec 02 - Linear Regression의 Hypothesis 와 cost 설명.assets/4-4.PNG)
+![4-4](4-4.PNG)
 
 가설 데이터 값, 실제 데이터 값 차이 제곱
 
@@ -225,7 +225,7 @@ m개니까 m으로 나눔 -> 이게 cost fucntion
 
 ### Cost function
 
-![4-5](4 - ML lec 02 - Linear Regression의 Hypothesis 와 cost 설명.assets/4-5.PNG)
+![4-5](4-5.PNG)
 
 위와 같은 식의 cost function 주어진다.
 

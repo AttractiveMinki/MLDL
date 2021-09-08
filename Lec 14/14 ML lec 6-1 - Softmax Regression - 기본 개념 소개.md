@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=MFAnsx1y9ZI&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_M
 
 ### Logistic regression
 
-![14-1](14 ML lec 6-1 - Softmax Regression - 기본 개념 소개.assets/14-1.PNG)
+![14-1](14-1.PNG)
 
 지난 시간까지 Logistic regression, stick regression classification이라고 하는 것을 공부.
 
@@ -32,7 +32,7 @@ g(z)를 z축의 값이 커지더라도 1보다 작은 값에 머물고, 아주 �
 
 많은 사람들이 연구해서 아름다운 함수를 만들어냈다.
 
-![14-2](14 ML lec 6-1 - Softmax Regression - 기본 개념 소개.assets/14-2.PNG)
+![14-2](14-2.PNG)
 
 sigmoid라고 부르기도 하고, Logistic이라고 부르기도 했다.
 
@@ -46,7 +46,7 @@ sigmoid함수를 이용해서 1과 0 사이로 압축하고,
 
 수식이 많고 복잡해지니, 오늘은 여러 수식을 다뤄야 하니 간단히 그림으로 표현하면 다음과 같다.
 
-![14-3](14 ML lec 6-1 - Softmax Regression - 기본 개념 소개.assets/14-3.PNG)
+![14-3](14-3.PNG)
 
 X란 유닛이 있고, WX로 계산.. 나오는 값 z가 된다. 
 
@@ -72,7 +72,7 @@ H(X) = Y햇
 
 얘가 하는 일을 잘 생각해보면..
 
-![14-4](14 ML lec 6-1 - Softmax Regression - 기본 개념 소개.assets/14-4.PNG)
+![14-4](14-4.PNG)
 
 x는 x1, x2 두 개의 값을 갖고 있다.
 
@@ -90,7 +90,7 @@ W를 학습한다, Logistic classification을 학습한다 -> 두 가지를 구�
 
 ### Multinomial classification
 
-![14-5](14 ML lec 6-1 - Softmax Regression - 기본 개념 소개.assets/14-5.PNG)
+![14-5](14-5.PNG)
 
 이 아이디어를 그대로 Multinomial classification에 적용할 수 있다.
 
@@ -110,7 +110,7 @@ Binary classification만 가지고도 Multinomial classification 구현이 가�
 
 ex) 우리가 하나의 classification을 찾음.
 
-![14-6](14 ML lec 6-1 - Softmax Regression - 기본 개념 소개.assets/14-6.PNG)
+![14-6](14-6.PNG)
 
 C이거나, C가 아니거나
 
@@ -122,7 +122,7 @@ C이거나, C가 아니거나
 
 또다른 하나를 찾음 (A or not)
 
-![14-7](14 ML lec 6-1 - Softmax Regression - 기본 개념 소개.assets/14-7.PNG)
+![14-7](14-7.PNG)
 
 세 개의 각각 다른 binray classification을 갖고도 충분히 구현 가능.
 
@@ -136,7 +136,7 @@ X -> ㅁ -> Y햇
 
 ㅁ는 classifier
 
-![14-8](14 ML lec 6-1 - Softmax Regression - 기본 개념 소개.assets/14-8.PNG)
+![14-8](14-8.PNG)
 
 세 개의 독립된 classifier를 가지고 구분이 가능하다.
 
@@ -148,7 +148,7 @@ X -> ㅁ -> Y햇
 
 classifier 실제 구현시 행렬로 구현.
 
-![14-9](14 ML lec 6-1 - Softmax Regression - 기본 개념 소개.assets/14-9.PNG)
+![14-9](14-9.PNG)
 
 WX = H(X)
 
@@ -160,7 +160,7 @@ WX = H(X)
 
 이걸 곱하면 어떻게 될까?
 
-![14-10](14 ML lec 6-1 - Softmax Regression - 기본 개념 소개.assets/14-10.PNG)
+![14-10](14-10.PNG)
 
 
 
@@ -172,13 +172,13 @@ WX = H(X)
 
 이해 못해도 되고 이런 식으로 된다고 알면 된다.
 
-<img src="14 ML lec 6-1 - Softmax Regression - 기본 개념 소개.assets/14-11.PNG" alt="14-11" style="zoom: 50%;" />
+<img src="14-11.PNG" alt="14-11" style="zoom: 50%;" />
 
 
 
 계산하면 이런 식으로 나온다.
 
-![14-12](14 ML lec 6-1 - Softmax Regression - 기본 개념 소개.assets/14-12.PNG)
+![14-12](14-12.PNG)
 
 이 값들이 바로 우리가 원했던 가설, Hypothesis (Y햇)
 

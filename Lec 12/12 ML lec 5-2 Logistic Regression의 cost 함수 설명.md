@@ -16,7 +16,7 @@ cost function과, cost function을 최소화하는 알고리즘에 대해 얘기
 
 ### Cost
 
-![12-1](12 ML lec 5-2 Logistic Regression의 cost 함수 설명.assets/12-1.PNG)
+![12-1](12-1.PNG)
 
 Hypothesis를 linear로 주었을 때 이런 형태가 나온다.
 
@@ -30,7 +30,7 @@ Hypothesis를 linear로 주었을 때 이런 형태가 나온다.
 
 우리의 가설이 조금 바뀌었다.
 
-![12-2](12 ML lec 5-2 Logistic Regression의 cost 함수 설명.assets/12-2.PNG)
+![12-2](12-2.PNG)
 
 
 
@@ -76,7 +76,7 @@ Hypothesis를 바꾸었기 때문에, cost 함수를 조금 바꿔야 한다.
 
 ### New cost function for logistic
 
-![12-3](12 ML lec 5-2 Logistic Regression의 cost 함수 설명.assets/12-3.PNG)
+![12-3](12-3.PNG)
 
 
 
@@ -114,7 +114,7 @@ log 함수의 고향을 보면 우리와 상당히 잘 맞다.
 
 g(z) = -log(z)라 하면.. (왼쪽 그림)
 
-![12-4](12 ML lec 5-2 Logistic Regression의 cost 함수 설명.assets/12-4.PNG)
+![12-4](12-4.PNG)
 
 
 
@@ -196,7 +196,7 @@ H(x) = 1, cost = ∞. 굉장히 커진다.
 
 ### Cost function
 
-![12-5](12 ML lec 5-2 Logistic Regression의 cost 함수 설명.assets/12-5.PNG)
+![12-5](12-5.PNG)
 
 정리
 
@@ -244,7 +244,7 @@ y = 0, c = -1 * log(1 - H(x))
 
 ### Minimize cost - Gradient decent algorithm
 
-![12-6](12 ML lec 5-2 Logistic Regression의 cost 함수 설명.assets/12-6.PNG)
+![12-6](12-6.PNG)
 
 
 
@@ -268,7 +268,7 @@ y = 0, c = -1 * log(1 - H(x))
 
 ### Gradient decent algorithm
 
-![12-7](12 ML lec 5-2 Logistic Regression의 cost 함수 설명.assets/12-7.PNG)
+![12-7](12-7.PNG)
 
 
 

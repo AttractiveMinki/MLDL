@@ -12,7 +12,7 @@ Linear Regression model을 test를 이용해 실질적으로 구현해보겠다.
 
 H(x) = Wx + b
 
-![5-1](5 - ML lab 02 - TensorFlow로 간단한 linear regression을 구현 (new).assets/5-1.png)
+![5-1](5-1.png)
 
 주어진 x값에 대해 예측을 어떻게 할 것인가
 

@@ -16,7 +16,7 @@ cost Minimize하는 것 tensorflow로 직접 구현
 
 H(x) = Wx
 
-![7-1](7 - ML lab 03 - Linear Regression 의 cost 최소화의 TensorFlow 구현 (new).assets/7-1.PNG)
+![7-1](7-1.PNG)
 
 
 
@@ -70,7 +70,7 @@ plt.plot(W_val, cost_val)
 plt.show()
 ```
 
-![7-2](7 - ML lab 03 - Linear Regression 의 cost 최소화의 TensorFlow 구현 (new).assets/7-2.PNG)
+![7-2](7-2.PNG)
 
 
 
@@ -102,7 +102,7 @@ W값은 최적화된 값이 오른쪽에 있으니 오른쪽으로 움직여야
 
 W는 + 방향으로 움직여야 한다.
 
-![7-3](7 - ML lab 03 - Linear Regression 의 cost 최소화의 TensorFlow 구현 (new).assets/7-3.PNG)
+![7-3](7-3.PNG)
 
 
 
@@ -118,7 +118,7 @@ cost 함수를 미분한 값, cost 함수의 기울기를 빼주면 된다.
 
 ##### tensorflow 적용하기
 
-![7-4](7 - ML lab 03 - Linear Regression 의 cost 최소화의 TensorFlow 구현 (new).assets/7-4.PNG)
+![7-4](7-4.PNG)
 
 α: Learning rate, 0.1로 둔다.
 
@@ -188,7 +188,7 @@ for step in range(21):
 
 step, cost, W 순
 
-![7-5](7 - ML lab 03 - Linear Regression 의 cost 최소화의 TensorFlow 구현 (new).assets/7-5.PNG)
+![7-5](7-5.PNG)
 
 step 지날수록 cost 작아지고 W는 1에 수렴
 
