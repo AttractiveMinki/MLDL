@@ -111,7 +111,7 @@ hypothesis = x_train * W + b
 
 cost는 어떻게 할 것인가?
 
-![5-1](5 - ML lab 02 - TensorFlow로 간단한 linear regression을 구현 (new).assets/5-1.png)
+![5-1](5-1.png)
 
 그대로 tensorflow에 있는 함수를 사용해서 써준다.
 
