@@ -155,7 +155,7 @@ ML이란 모델이 있고, 이미 답(Label)이 정해져 있는.. Y가 있고, 
   - multi-label classification
   - A, B, C, E, F
 
-Supervised learning 대게 세 가지
+Supervised learning 대개 세 가지
 
 regression, classification, multi-label classification
 
