@@ -76,6 +76,102 @@ https://wikidocs.net/book/2155
 
 
 
+### 목차
+
+1 - Lec 00 - Machine, Deep learning 수업의 개요와 일정
+
+2 - ML lec 01 - 기본적인 Machine Learning 의 용어와 개념 설명
+
+3 - ML lab 01 - TensorFlow의 설치및 기본적인 operations (new)
+
+4 - ML lec 02 - Linear Regression의 Hypothesis 와 cost 설명
+
+5 - ML lab 02 - TensorFlow로 간단한 linear regression을 구현 (new)
+
+6 - ML lec 03 - Linear Regression의 cost 최소화 알고리즘의 원리 설명
+
+7 - ML lab 03 - Linear Regression 의 cost 최소화의 TensorFlow 구현 (new)
+
+8 - ML lec 04 - multi-variable linear regression (new)
+
+9 - ML lab 04-1 - multi-variable linear regression을 TensorFlow에서 구현하기 (new)
+
+10 - ML lab 04-2 - TensorFlow로 파일에서 데이타 읽어오기 (new)
+
+11 - ML lec 5-1 - Logistic Classification의 가설 함수 정의
+
+12 ML lec 5-2 Logistic Regression의 cost 함수 설명
+
+13 ML lab 05 - TensorFlow로 Logistic Classification의 구현하기 (new)
+
+14 ML lec 6-1 - Softmax Regression - 기본 개념 소개
+
+15 ML lec 6-2 - Softmax classifier 의 cost함수
+
+16 ML lab 06-1 - TensorFlow로 Softmax Classification의 구현하기
+
+17 ML lab 06-2- TensorFlow로 Fancy Softmax Classification의 구현하기
+
+18 - lec 07-1 - 학습 rate, Overfitting, 그리고 일반화 (Regularization)
+
+19 lec 07-2 - Training, Testing 데이타 셋
+
+20 ML lab 07-1 - training, test dataset, learning rate, normalization
+
+21 ML lab 07-2 - Meet MNIST Dataset
+
+22 lec 08-1 - 딥러닝의 기본 개념, 시작과 XOR 문제
+
+23 lec 08-2 - 딥러닝의 기본 개념2, Back-propagation 과 2006,2007 '딥'의 출현
+
+24 ML lab 08 - Tensor Manipulation
+
+25 lec9-1 - XOR 문제 딥러닝으로 풀기
+
+26 lec9-x - 특별편 - 10분안에 미분 정리하기 (lec9-2 이전에 보세요)
+
+27 lec9-2 - 딥넷트웍 학습 시키기 (backpropagation)
+
+28 ML lab 09-1 - Neural Net for XOR
+
+29 ML lab 09-2 - Tensorboard (Neural Net for XOR)
+
+30 lec10-1 - Sigmoid 보다 ReLU가 더 좋아
+
+31 lec10-2 - Weight 초기화 잘해보자
+
+32 lec10-3 - Dropout 과 앙상블
+
+33 lec10-4 - 레고처럼 넷트웍 모듈을 마음껏 쌓아 보자
+
+34 ML lab10 - NN, ReLu, Xavier, Dropout, and Adam
+
+35 lec11-1 ConvNet의 Conv 레이어 만들기
+
+36 lec11-2 - ConvNet Max pooling 과 Full Network
+
+37 - lec11-3 ConvNet의 활용예
+
+38 - ML lab11-1 - TensorFlow CNN Basics
+
+39 ML lab11-2 - MNIST 99% with CNN
+
+40 ML lab11-3 - CNN Class, Layers, Ensemble
+
+41 lec12 - NN의 꽃 RNN 이야기
+
+42 ML lab12-1 - RNN - Basics
+
+43 ML lab12-2 - RNN - Hi Hello Training
+
+44 ML lab12-3 - Long Sequence RNN
+
+45 ML lab12-4 - Stacked RNN + Softmax Layer
+
+46 ML lab12-5 - Dynamic RNN
+
+
+
 -----
 
 이하 0강 내용 요약
