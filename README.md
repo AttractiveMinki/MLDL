@@ -170,6 +170,14 @@ https://wikidocs.net/book/2155
 
 46 ML lab12-5 - Dynamic RNN
 
+47 ML lab12-6 - RNN with Time Series Data
+
+48 lab13 - TensorFlow를 AWS에서 GPU와 함께 돌려보자
+
+49 lab14 - AWS에서 저렴하게 Spot Instance를 터미네이션 걱정없이 사용하기
+
+50 Google Cloud ML with Examples 1 (KOREAN)
+
 
 
 -----
